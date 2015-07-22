@@ -9,8 +9,7 @@
 <body>
 <div id="wrapper">
 	<header>
-		<h2><%= link_to 'My Rails Blog', root_path %></h2>
-		<h3><%= link_to "'Learnin' 'Bout Rails", root_path %></h3>
+		<h2><%= link_to 'Bare bones blog app', root_path %></h2>
 	</header>
 	<% [:notice, :alert].each do |level| %>
 		<% if flash[level] %>
@@ -20,7 +19,7 @@
 	<%= yield %>
 	<%= sidebar %>
 	<footer>
-		<p>A sample Rails app from <a href="http://www.infiniteskills.com/" target="_blank">Infinite Skills</a></p>
+		<p>A sample Rails app from <a href="https://github.com/jrod01" target="_blank">Jrod01</a></p>
 	</footer>
 </div>
 </body>
